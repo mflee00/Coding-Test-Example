@@ -125,6 +125,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로찾기 DFS", "미로�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로찾기 BFS", "미로찾기 BFS\미로찾기 BFS.vcxproj", "{83E8B1A3-FF54-479E-8136-9223B7952E9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "전광판", "전광판\전광판.vcxproj", "{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{83E8B1A3-FF54-479E-8136-9223B7952E9A}.Release|x64.Build.0 = Release|x64
 		{83E8B1A3-FF54-479E-8136-9223B7952E9A}.Release|x86.ActiveCfg = Release|Win32
 		{83E8B1A3-FF54-479E-8136-9223B7952E9A}.Release|x86.Build.0 = Release|Win32
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Debug|x64.ActiveCfg = Debug|x64
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Debug|x64.Build.0 = Debug|x64
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Debug|x86.Build.0 = Debug|Win32
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x64.ActiveCfg = Release|x64
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x64.Build.0 = Release|x64
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x86.ActiveCfg = Release|Win32
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -552,6 +562,7 @@ Global
 		{E673C35A-192F-44F7-ABDF-A1DC2E93514A} = {6745596A-101B-4E19-9765-CBBF67B595FB}
 		{0E394F6E-F99E-4BC2-8007-8D26E60C1C93} = {6745596A-101B-4E19-9765-CBBF67B595FB}
 		{83E8B1A3-FF54-479E-8136-9223B7952E9A} = {6745596A-101B-4E19-9765-CBBF67B595FB}
+		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E} = {41CB5488-7F18-48AE-B677-0596E5288653}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C875769-08CC-4C60-B42A-10DFCF886147}
