@@ -127,6 +127,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "미로찾기 BFS", "미로�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "전광판", "전광판\전광판.vcxproj", "{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "장애물 인식 프로그램 BFS", "장애물 인식 프로그램\장애물 인식 프로그램.vcxproj", "{D06454E9-D0F8-48A5-8376-94692204A75F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "계단 오르기문제 다이나믹", "계단 오르기문제\계단 오르기문제.vcxproj", "{75901FD4-0542-4360-BAA4-DB0377B32132}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1만들기 다이나믹", "1만들기 다이나믹\1만들기 다이나믹.vcxproj", "{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "바이러스 다이나믹", "바이러스 다이나믹\바이러스 다이나믹.vcxproj", "{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +519,38 @@ Global
 		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x64.Build.0 = Release|x64
 		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x86.ActiveCfg = Release|Win32
 		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E}.Release|x86.Build.0 = Release|Win32
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Debug|x64.ActiveCfg = Debug|x64
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Debug|x64.Build.0 = Debug|x64
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Debug|x86.ActiveCfg = Debug|Win32
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Debug|x86.Build.0 = Debug|Win32
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Release|x64.ActiveCfg = Release|x64
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Release|x64.Build.0 = Release|x64
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Release|x86.ActiveCfg = Release|Win32
+		{D06454E9-D0F8-48A5-8376-94692204A75F}.Release|x86.Build.0 = Release|Win32
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Debug|x64.ActiveCfg = Debug|x64
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Debug|x64.Build.0 = Debug|x64
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Debug|x86.ActiveCfg = Debug|Win32
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Debug|x86.Build.0 = Debug|Win32
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Release|x64.ActiveCfg = Release|x64
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Release|x64.Build.0 = Release|x64
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Release|x86.ActiveCfg = Release|Win32
+		{75901FD4-0542-4360-BAA4-DB0377B32132}.Release|x86.Build.0 = Release|Win32
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Debug|x64.ActiveCfg = Debug|x64
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Debug|x64.Build.0 = Debug|x64
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Debug|x86.Build.0 = Debug|Win32
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Release|x64.ActiveCfg = Release|x64
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Release|x64.Build.0 = Release|x64
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Release|x86.ActiveCfg = Release|Win32
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9}.Release|x86.Build.0 = Release|Win32
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Debug|x64.ActiveCfg = Debug|x64
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Debug|x64.Build.0 = Debug|x64
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Debug|x86.Build.0 = Debug|Win32
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Release|x64.ActiveCfg = Release|x64
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Release|x64.Build.0 = Release|x64
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Release|x86.ActiveCfg = Release|Win32
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -563,6 +603,10 @@ Global
 		{0E394F6E-F99E-4BC2-8007-8D26E60C1C93} = {6745596A-101B-4E19-9765-CBBF67B595FB}
 		{83E8B1A3-FF54-479E-8136-9223B7952E9A} = {6745596A-101B-4E19-9765-CBBF67B595FB}
 		{E6B6DDAF-1925-44F7-A9B2-F65CF1E6860E} = {41CB5488-7F18-48AE-B677-0596E5288653}
+		{D06454E9-D0F8-48A5-8376-94692204A75F} = {41CB5488-7F18-48AE-B677-0596E5288653}
+		{75901FD4-0542-4360-BAA4-DB0377B32132} = {41CB5488-7F18-48AE-B677-0596E5288653}
+		{EA8C1E63-2E33-4BC2-B64A-26307575EBD9} = {41CB5488-7F18-48AE-B677-0596E5288653}
+		{A3A703AD-D507-4DFB-86C0-B2B6C6DD22C9} = {41CB5488-7F18-48AE-B677-0596E5288653}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C875769-08CC-4C60-B42A-10DFCF886147}
